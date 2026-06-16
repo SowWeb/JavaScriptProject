@@ -1,0 +1,897 @@
+/* GE style details - Institue */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; 
+    color: #333333; 
+}
+
+/* Header style details- */
+/* Block 1 details */
+header {
+    background-color: #003366;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+    /* Style for heading */
+header .header-heading h1 {
+    font-size: 2rem;
+    color: white; 
+    text-align: center; 
+    margin: 50px;
+}
+
+   /* Logo deatails */
+header .logo img {
+    max-height: 100px;
+}
+
+   /* Navigation Menu details */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color:white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #5BC0DE; 
+    text-decoration: underline;
+}
+
+/* welcome Header style details- */
+/* block 2 design details */
+.main {
+    color:black;
+    padding: 80px 20px;
+    text-align: center;
+    font-size: large;
+    background: url('image/background.jpg') no-repeat center center/cover;
+}
+/* Heading */
+.Company h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+/*para- */
+.Company p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+/* button */
+.Company .btn {
+    background-color: blue; 
+    color: white; 
+    padding: 10px 20px;
+    text-decoration:solid;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+/* buttton hover- */
+.Company.btn:hover {
+    background-color: white
+}
+
+/*  Main Content Layout desihn - two section left is traing details and right side is course details */
+/* block 3 design details */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.training-details, .course-details {
+    width: 48%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px gray;
+}
+
+.training-details h2, .course-details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #003366; 
+}
+
+.training-details p, .course-details p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.training-details ul, .course-details ul {
+    list-style: none;
+}
+
+.training-details ul li, .course-details ul li {
+    margin: 10px 0;
+}
+
+.training-details ul li:before, .course-details ul li:before {
+    color: #5BC0DE; 
+    text-align: center;
+}
+
+.course-details .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.course-details .btn:hover {
+    background-color: #0056b3; 
+}
+
+/* Enroll Now  button details */
+.enroll-now {
+    background-color: white; 
+    color:black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.enroll-now .btn {
+    background-color: #003366; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.enroll-now .btn:hover {
+    background-color: #5BC0DE; 
+}
+/*Why Choose Gelos Enterprises */
+/* block 4 design details */
+.advertisement {
+    background-color: #f4f4f4; 
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.advertisement .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.advertisement h2 {
+    font-size: 2rem;
+    color: #003366; 
+    margin-bottom: 30px;
+}
+
+   /* left sude image and right side text  */
+.advertisement-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px blue;
+    padding: 20px;
+}
+
+   /* Image Style */
+.advertisement-image {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.advertisement-text {
+    flex: 1;
+    color: #333;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .advertisement-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advertisement-image {
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
+
+    .advertisement-text {
+        text-align: center;
+    }
+}
+
+/* Footer  details */
+/* block 4 design details */
+footer {
+    background-color: #003366; 
+    color: white; 
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Copyright */
+footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/*  Links Stylr */
+footer .footer-links {
+    margin-bottom: 20px;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+footer .footer-links a:hover {
+    color: #5BC0DE;
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+footer .social {
+    margin-top: 20px;
+}
+
+footer .social-link {
+    color: white; 
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-link:hover {
+    color: #5BC0DE; 
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    footer .social-link {
+        font-size: 1.2rem;
+        margin: 0 8px;
+    }
+}
+
+    /* About Us page*/
+.about-us {
+    padding: 60px 20px;
+}
+
+.about-us .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+}
+
+/* Courses Section */
+/* Main Content */
+main {
+    padding: 50px 20px;
+}
+
+/* Courses Section */
+.courses {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.courses h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.course-item {
+    width: 32%; /* Display 3 courses per row (100% / 3 = 32%) */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.course-item:hover {
+    transform: translateY(-10px);
+}
+
+.course-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #003366;
+}
+
+.course-info {
+    padding: 15px;
+}
+
+.course-info h3 {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.course-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.course-level {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.course-info ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.course-info ul li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.course-info a.btn {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.course-info a.btn:hover {
+    background-color: #5BC0DE;
+}
+
+/* contact us detail pages style */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.left-section, .right-section {
+    width: 48%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+.left-section h2 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.left-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.form-error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Form styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #007BFF; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+textarea {
+    resize: none; /* Disable resizing */
+}
+
+button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#errorMessages {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 15px;
+    }
+    
+    .advertisement-item {
+        padding: 25px;
+    }
+    
+    .course-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    header .header-heading h1 {
+        font-size: 1.8rem;
+        margin: 40px;
+    }
+    
+    .Company h1 {
+        font-size: 2.2rem;
+    }
+    
+    .advertisement-item {
+        padding: 20px;
+    }
+    
+    .advertisement-image {
+        max-width: 350px;
+    }
+    
+    .course-item {
+        width: calc(50% - 20px);
+    }
+    
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    header .header-heading h1 {
+        font-size: 1.6rem;
+        margin: 30px;
+    }
+    
+    .Company h1 {
+        font-size: 2rem;
+    }
+    
+    .Company p {
+        font-size: 1.2rem;
+    }
+    
+    .main-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .training-details, .course-details {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .advertisement-item {
+        gap: 20px;
+    }
+    
+    .advertisement-image {
+        max-width: 300px;
+    }
+    
+    .course-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .wrapper {
+        flex-direction: column;
+    }
+    
+    .left-section, .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 0;
+    }
+    
+    header .logo img {
+        max-height: 80px;
+        margin-bottom: 15px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    nav ul li {
+        margin: 0;
+    }
+    
+    .main {
+        padding: 60px 15px;
+    }
+    
+    .Company h1 {
+        font-size: 1.8rem;
+    }
+    
+    .Company p {
+        font-size: 1.1rem;
+    }
+    
+    .advertisement-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .advertisement-image {
+        margin: 0 0 20px 0;
+        max-width: 100%;
+    }
+    
+    .contact-info, .form-container {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    form {
+        padding: 15px;
+    }
+    
+    input, textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    footer {
+        padding: 25px 15px;
+    }
+    
+    .courses-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .course-item {
+        margin-bottom: 20px;
+    }
+    
+    .slider {
+        height: 300px;
+    }
+    
+    .slider .img-box {
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    header .header-heading h1 {
+        font-size: 1.4rem;
+        margin: 20px 10px;
+    }
+    
+    .Company h1 {
+        font-size: 1.6rem;
+    }
+    
+    .Company p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    
+    .training-details h2, .course-details h2 {
+        font-size: 1.4rem;
+    }
+    
+    .advertisement h2 {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    
+    .advertisement-item {
+        padding: 10px;
+    }
+    
+    .advertisement-text {
+        font-size: 0.9rem;
+    }
+    
+    footer {
+        padding: 20px 10px;
+    }
+    
+    footer p {
+        font-size: 0.9rem;
+    }
+    
+    .course-info h3 {
+        font-size: 1.2rem;
+    }
+    
+    .course-info p {
+        font-size: 0.9rem;
+    }
+    
+    .course-level {
+        font-size: 0.9rem;
+    }
+    
+    .slider {
+        height: 250px;
+    }
+    
+    .slider .img-box {
+        height: 200px;
+    }
+    
+    .slider .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    header .header-heading h1 {
+        font-size: 1.2rem;
+        margin: 15px 5px;
+    }
+    
+    .Company h1 {
+        font-size: 1.4rem;
+    }
+    
+    .Company p {
+        font-size: 0.9rem;
+    }
+    
+    .training-details h2, .course-details h2 {
+        font-size: 1.2rem;
+    }
+    
+    .advertisement h2 {
+        font-size: 1.4rem;
+    }
+    
+    .advertisement-text {
+        font-size: 0.85rem;
+    }
+    
+    input, textarea {
+        font-size: 13px;
+    }
+    
+    button {
+        font-size: 14px;
+    }
+    
+    .course-info h3 {
+        font-size: 1.1rem;
+    }
+    
+    .course-info p {
+        font-size: 0.85rem;
+    }
+    
+    .course-level {
+        font-size: 0.85rem;
+    }
+    
+    .slider {
+        height: 200px;
+    }
+    
+    .slider .img-box {
+        height: 150px;
+    }
+    
+    .slider .btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Form Error Messages */
+#errorMessages {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    display: none;
+}
+
+/* Form Field Styles */
+input:invalid, textarea:invalid {
+    border-color: #dc3545;
+}
+
+input:focus:invalid, textarea:focus:invalid {
+    box-shadow: 0 0 5px #dc3545;
+}
+
+/* Basic styling for the slider container */
+.slider {
+    margin: 50px auto;
+    width: 50%;
+  }
+  
+  /* Styling for the image container */
+  .img-box img {
+    width: 100%;
+  }
+  
+  /* Styling for the previous and next buttons */
+  .btn {
+    border: none;
+    outline: none;
+    background-color: #888;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+    margin: 10px auto;
+  }
+  
+  .btn:hover {
+    background: #111;
+  }
+  

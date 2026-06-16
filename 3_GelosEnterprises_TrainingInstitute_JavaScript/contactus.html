@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelos Enterprises Training Institute</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+            <img src="image/logo.png" alt="Gelos Enterprises Logo">
+            </a>
+        </div>
+        <div class="header-heading">
+            <h1>Gelos Enterprises Training Institute</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="qualificationdetailpage.html">Qualifications</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="slider">
+            <div class="img-box">
+                <img src="img/1.png" class="slider-img" alt="Course Image 1">
+            </div>
+            <button class="btn btn-prev" onclick="prev()">Prev</button>
+            <button class="btn btn-next" onclick="next()">Next</button>
+        </div>
+
+        <div class="wrapper">
+            <!-- Left section for contact details-->
+            <div class="left-section">
+                <h2>Contact Information</h2>
+                <p><strong>Name:</strong>Gelos Enterprises Pty. Ltd.</p>
+                <p><strong>Address:</strong> 19 Tanner Street, Carey Park, New South Wales 2429</p>
+                <p><strong>Phone:</strong> (02) 4939 5050</p>
+                <p><strong>Email:</strong> GE@studywithus.com.au</p>
+            </div>
+    
+           <!-- Right section for the enquiry form -->
+    <div class="right-section">
+    <h2>Enquiry Form</h2>
+    <form id="enquiry-form" onsubmit="return validateForm()">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+    
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="04xxxxxxxx" pattern="04[0-9]{8}" required><br><br>
+    
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" maxlength="300" required></textarea><br><br>
+    
+        <button type="submit">Submit</button>
+        <p id="errorMessages" style="color: red; font-weight: bold;"></p>
+    </form>
+    </div>    
+    </div>
+        </div>
+    
+    <!-- Footer Section -->
+<footer>
+        <div class="container">
+            <p>&copy; 2024 Gelos Enterprises. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="social">
+                <a href="https:Facebook.com/GE-studywithus" class="social-link"><i class="fa fa-facebook"></i></a>
+                <a href="Instagram.com/GE-studywithus" class="social-link"><i class="fa fa-twitter"></i></a>
+                <a href="Twitter.com/GE-studywithus" class="social-link"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+</footer>
+    <!-- JavaScript -->
+    <script src="javascript/script.js"></script>
+</body>
+</html>
